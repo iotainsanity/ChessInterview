@@ -23,7 +23,7 @@ namespace ChessInterview.Entities.Models
         {
             _boardSquares = new List<BoardSquare>();
 
-            foreach (var x in ChessRules.ValidX)
+            foreach (var x in ChessRules.ValidColumn)
             {
                 foreach (var y in ChessRules.ValidY)
                 {

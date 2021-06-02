@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "ChessInterview/1.0.0": {
+        "dependencies": {
+          "ChessInterview.Entities": "1.0.0"
+        },
         "runtime": {
           "ChessInterview.dll": {}
+        }
+      },
+      "ChessInterview.Entities/1.0.0": {
+        "runtime": {
+          "ChessInterview.Entities.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ChessInterview/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChessInterview.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

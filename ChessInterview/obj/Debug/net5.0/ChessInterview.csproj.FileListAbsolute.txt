@@ -14,3 +14,6 @@ C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInter
 C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ref\ChessInterview.dll
 C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.pdb
 C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.genruntimeconfig.cache
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ChessInterview.Entities.dll
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ChessInterview.Entities.pdb
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.csproj.CopyComplete

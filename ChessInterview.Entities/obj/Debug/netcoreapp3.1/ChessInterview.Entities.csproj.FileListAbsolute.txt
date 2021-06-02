@@ -2,3 +2,8 @@ C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcorea
 C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.AssemblyInfoInputs.cache
 C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.AssemblyInfo.cs
 C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.csproj.CoreCompileInputs.cache
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\bin\Debug\netcoreapp3.1\ChessInterview.Entities.deps.json
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\bin\Debug\netcoreapp3.1\ChessInterview.Entities.dll
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\bin\Debug\netcoreapp3.1\ChessInterview.Entities.pdb
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.dll
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.pdb
