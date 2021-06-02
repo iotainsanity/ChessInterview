@@ -6,10 +6,9 @@ namespace ChessInterview.Entities.Models
 {
     public class Bishop : ChessPiece
     {
-        public Bishop() 
+        public Bishop(string xy) :
+            base(PieceType.Bishop,new MoveStyle(7,MoveDirection.Diagonal),xy)
         {
-            this.PieceType = PieceType.Bishop;
-            MoveStyle = new MoveStyle(7, MoveDirection.Diagonal);
         }
     }
 }

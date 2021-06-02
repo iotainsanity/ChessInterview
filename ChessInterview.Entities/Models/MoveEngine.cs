@@ -31,21 +31,73 @@ namespace ChessInterview.Entities.Models
 
         public List<BoardSquare> GetDiagonalMoves(ChessPiece chessPiece)
         {
-            return new List<BoardSquare>();
+            List<BoardSquare> validMoves = new List<BoardSquare>();
+
+            int spacesMoved = 1;
+            while (ChessRules.ValidY.Contains(chessPiece.BoardSquare.Y + spacesMoved) && ChessRules.ValidX.Contains(chessPiece.BoardSquare.X + spacesMoved) 
+                && spacesMoved <= chessPiece.MoveStyle.MaxSpaces)
+            {
+                validMoves.Add(new BoardSquare(chessPiece.BoardSquare.X + spacesMoved, chessPiece.BoardSquare.Y + spacesMoved));
+                spacesMoved++;
+            }
+
+            spacesMoved = 1;
+            while (ChessRules.ValidY.Contains(chessPiece.BoardSquare.Y + spacesMoved) && ChessRules.ValidX.Contains(chessPiece.BoardSquare.X - spacesMoved)
+                && spacesMoved <= chessPiece.MoveStyle.MaxSpaces)
+            {
+                validMoves.Add(new BoardSquare(chessPiece.BoardSquare.X - spacesMoved, chessPiece.BoardSquare.Y + spacesMoved));
+                spacesMoved++;
+            }
+
+            spacesMoved = 1;
+            while (ChessRules.ValidY.Contains(chessPiece.BoardSquare.Y - spacesMoved) && ChessRules.ValidX.Contains(chessPiece.BoardSquare.X + spacesMoved)
+                && spacesMoved <= chessPiece.MoveStyle.MaxSpaces)
+            {
+                validMoves.Add(new BoardSquare(chessPiece.BoardSquare.X + spacesMoved, chessPiece.BoardSquare.Y - spacesMoved));
+                spacesMoved++;
+            }
+
+            spacesMoved = 1;
+            while (ChessRules.ValidY.Contains(chessPiece.BoardSquare.Y - spacesMoved) && ChessRules.ValidX.Contains(chessPiece.BoardSquare.X - spacesMoved)
+                && spacesMoved <= chessPiece.MoveStyle.MaxSpaces)
+            {
+                validMoves.Add(new BoardSquare(chessPiece.BoardSquare.X - spacesMoved, chessPiece.BoardSquare.Y - spacesMoved));
+                spacesMoved++;
+            }
+
+            return validMoves;
         }
 
         public List<BoardSquare> GetXYMoves(ChessPiece chessPiece)
         {
             List<BoardSquare> validMoves = new List<BoardSquare>();
             
-            //check x + 1 and x - 1
-            //check y + 1 and y - 1
-
-
             int spacesMoved = 1;
-            while (ChessRules.ValidY.Contains(chessPiece.Board.Y + spacesMoved))
+            while (ChessRules.ValidY.Contains(chessPiece.BoardSquare.Y + spacesMoved) && spacesMoved <= chessPiece.MoveStyle.MaxSpaces)
             {
-                validMoves.Add(new BoardSquare(chessPiece.Board.Column, chessPiece.Board.Y + spacesMoved));
+                validMoves.Add(new BoardSquare(chessPiece.BoardSquare.Column, chessPiece.BoardSquare.Y + spacesMoved));
+                spacesMoved++;
+            }
+
+            spacesMoved = 1;
+            while (ChessRules.ValidY.Contains(chessPiece.BoardSquare.Y - spacesMoved) && spacesMoved <= chessPiece.MoveStyle.MaxSpaces)
+            {
+                validMoves.Add(new BoardSquare(chessPiece.BoardSquare.Column, chessPiece.BoardSquare.Y - spacesMoved));
+                spacesMoved++;
+            }
+
+            spacesMoved = 1;
+            while (ChessRules.ValidX.Contains(chessPiece.BoardSquare.X + spacesMoved) && spacesMoved <= chessPiece.MoveStyle.MaxSpaces)
+            {
+                validMoves.Add(new BoardSquare(chessPiece.BoardSquare.X + spacesMoved, chessPiece.BoardSquare.Y));
+                spacesMoved++;
+            }
+
+            spacesMoved = 1;
+            while (ChessRules.ValidX.Contains(chessPiece.BoardSquare.X - spacesMoved) && spacesMoved <= chessPiece.MoveStyle.MaxSpaces)
+            {
+                validMoves.Add(new BoardSquare(chessPiece.BoardSquare.X - spacesMoved, chessPiece.BoardSquare.Y));
+                spacesMoved++;
             }
 
             return validMoves;

@@ -6,10 +6,10 @@ namespace ChessInterview.Entities.Models
 {
     public class Rook : ChessPiece
     {
-        public Rook()
+        public Rook(string xy) :
+            base(PieceType.Rook, new MoveStyle(7, MoveDirection.XY), xy)
         {
-            PieceType = PieceType.Rook;
-            MoveStyle = new MoveStyle(7,MoveDirection.XY);
+        
         }
     }
 }

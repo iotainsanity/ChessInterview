@@ -6,10 +6,11 @@ namespace ChessInterview.Entities.Models
 {
     public class King : ChessPiece
     {
-        public King()
-        {
-            PieceType = PieceType.King;
-            MoveStyle = new MoveStyle(1, MoveDirection.Any);
-        }
+        public King(string xy) :
+            base(PieceType.King, new MoveStyle(1, MoveDirection.Any), xy)
+        { 
+        
+        }   
     }
 }
+
