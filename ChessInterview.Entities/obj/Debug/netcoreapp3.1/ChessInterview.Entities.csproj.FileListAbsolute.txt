@@ -1,0 +1,4 @@
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.csprojAssemblyReference.cache
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.AssemblyInfoInputs.cache
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.AssemblyInfo.cs
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview.Entities\obj\Debug\netcoreapp3.1\ChessInterview.Entities.csproj.CoreCompileInputs.cache

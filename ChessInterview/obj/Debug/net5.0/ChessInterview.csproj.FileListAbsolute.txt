@@ -1,0 +1,16 @@
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ChessInterview.exe
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ChessInterview.deps.json
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ChessInterview.runtimeconfig.json
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ChessInterview.runtimeconfig.dev.json
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ChessInterview.dll
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ref\ChessInterview.dll
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\bin\Debug\net5.0\ChessInterview.pdb
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.csprojAssemblyReference.cache
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.AssemblyInfoInputs.cache
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.AssemblyInfo.cs
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.csproj.CoreCompileInputs.cache
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.dll
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ref\ChessInterview.dll
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.pdb
+C:\Users\calvi\Desktop\ChessInterview\ChessInterview\obj\Debug\net5.0\ChessInterview.genruntimeconfig.cache
