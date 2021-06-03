@@ -43,14 +43,7 @@ namespace ChessInterview
                     return "Invalid selection. Please try again.";
             }
 
-            string validMoves = "";
-
-            foreach (var item in chessPiece.GetValidMoves())
-            {
-                validMoves += item.SquareName + ",";
-            }
-
-            return "Valid Moves are: " + validMoves.Remove(validMoves.Length - 1);
+            return new MoveEngine().GetMovesAsCSV(chessPiece);
         }
     }
 }

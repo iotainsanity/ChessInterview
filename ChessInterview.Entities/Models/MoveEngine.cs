@@ -102,5 +102,17 @@ namespace ChessInterview.Entities.Models
 
             return validMoves;
         }
+
+        public string GetMovesAsCSV(ChessPiece chessPiece)
+        {
+            string validMoves = "";
+
+            foreach (var item in chessPiece.GetValidMoves())
+            {
+                validMoves += item.SquareName + ",";
+            }
+
+            return "Valid Moves are: " + validMoves.Remove(validMoves.Length - 1);
+        }
     }
 }
