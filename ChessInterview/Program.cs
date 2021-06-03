@@ -7,14 +7,50 @@ namespace ChessInterview
     {
         static void Main(string[] args)
         {
-            var x = new Queen("a1");
-            foreach (var item in x.GetValidMoves())
+            while (true)
             {
-                Console.WriteLine(item.SquareName);
-            } 
+                Console.WriteLine(GetInput());
+                Console.WriteLine();
+            }
+        }
 
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
+        private static string GetInput()
+        {
+            Console.Write("Please select your piece." + Environment.NewLine + "1. King" + Environment.NewLine + "2. Queen" + Environment.NewLine + "3. Rook" + Environment.NewLine + "4. Bishop");
+            Console.WriteLine();
+            var piece = Console.ReadLine();
+
+            Console.WriteLine("Please enter the starting position.");
+            var startingPosition = Console.ReadLine();
+
+            ChessPiece chessPiece;
+
+            switch (piece)
+            {
+                case "1":
+                    chessPiece = new King(startingPosition);
+                    break;
+                case "2":
+                    chessPiece = new Queen(startingPosition);
+                    break;
+                case "3":
+                    chessPiece = new Rook(startingPosition);
+                    break;
+                case "4":
+                    chessPiece = new Bishop(startingPosition);
+                    break;
+                default:
+                    return "Invalid selection. Please try again.";
+            }
+
+            string validMoves = "";
+
+            foreach (var item in chessPiece.GetValidMoves())
+            {
+                validMoves += item.SquareName + ",";
+            }
+
+            return "Valid Moves are: " + validMoves.Remove(validMoves.Length - 1);
         }
     }
 }
