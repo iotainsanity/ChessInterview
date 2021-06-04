@@ -43,7 +43,7 @@ namespace ChessInterview
                     return "Invalid selection. Please try again.";
             }
 
-            return new MoveEngine().GetMovesAsCSV(chessPiece);
+            return "Valid Moves are: " + new MoveEngine().GetMovesAsCSV(chessPiece);
         }
     }
 }

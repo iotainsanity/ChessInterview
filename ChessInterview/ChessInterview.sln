@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessInterview.Entities", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessInterview.API", "..\ChessInterview.API\ChessInterview.API.csproj", "{8A8C41BC-9B83-4867-BD5C-E4EBB477739D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessInterview.UnitTests", "..\ChessInterview.UnitTests\ChessInterview.UnitTests.csproj", "{8762D8D9-816A-405E-955D-6ECED9632D92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8A8C41BC-9B83-4867-BD5C-E4EBB477739D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A8C41BC-9B83-4867-BD5C-E4EBB477739D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A8C41BC-9B83-4867-BD5C-E4EBB477739D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8762D8D9-816A-405E-955D-6ECED9632D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8762D8D9-816A-405E-955D-6ECED9632D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8762D8D9-816A-405E-955D-6ECED9632D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8762D8D9-816A-405E-955D-6ECED9632D92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

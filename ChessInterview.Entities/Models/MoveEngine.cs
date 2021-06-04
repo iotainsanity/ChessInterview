@@ -112,7 +112,7 @@ namespace ChessInterview.Entities.Models
                 validMoves += item.SquareName + ",";
             }
 
-            return "Valid Moves are: " + validMoves.Remove(validMoves.Length - 1);
+            return validMoves.Remove(validMoves.Length - 1);
         }
     }
 }

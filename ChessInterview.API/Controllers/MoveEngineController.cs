@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace ChessInterview.API.Controllers
 {
+    [ApiController]
+    [Route("controller")]
     public class MoveEngineController : Controller
     {
         public IActionResult Index()
